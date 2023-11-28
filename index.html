@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          @import url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;700&display=swap');
+        :root{
+            --Dark-blue: #011627;
+            --orange-1: #ffc300;
+            --Cream: #f2e8cf;
+            --orange: #ffd60a; 
+ /*            --Dark-blue: #993300;
+            --orange-1: #f1e3d3;
+            --Cream: #141204;
+            --orange: #FFCC99; */
+        }
+          *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            direction: rtl;
+        }
+        body{
+             background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1458' height='493' preserveAspectRatio='none' viewBox='0 0 1458 493'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1323%26quot%3b)' fill='none'%3e%3crect width='1458' height='493' x='0' y='0' fill='rgba(0%2c 29%2c 61%2c 1)'%3e%3c/rect%3e%3cpath d='M310.1815360872664 330.5299314780842L398.6491095876556 277.3732505007742 345.4924286103455 188.90567700038503 257.0248551099564 242.06235797769506z' fill='rgba(255%2c 195%2c 0%2c 0.64)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M19.276158388283708 109.5097789574366L69.9543383685324 190.6118202487853 151.05637965988112 139.9336402685366 100.37819967963242 58.831598977187895z' fill='rgba(255%2c 195%2c 0%2c 0.64)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1330.79 22.6 a100.21 100.21 0 1 0 200.42 0 a100.21 100.21 0 1 0 -200.42 0z' fill='rgba(255%2c 195%2c 0%2c 0.64)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M245.5 440.01 a104.5 104.5 0 1 0 209 0 a104.5 104.5 0 1 0 -209 0z' fill='rgba(255%2c 195%2c 0%2c 0.64)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M115.43 389.13 a97.7 97.7 0 1 0 195.4 0 a97.7 97.7 0 1 0 -195.4 0z' fill='rgba(255%2c 195%2c 0%2c 0.64)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M989.219%2c498.41C1005.576%2c498.641%2c1022.469%2c493.122%2c1030.681%2c478.974C1038.92%2c464.78%2c1035.574%2c447.221%2c1027.083%2c433.176C1018.915%2c419.666%2c1004.978%2c411.333%2c989.219%2c410.394C971.442%2c409.334%2c951.635%2c412.773%2c942.637%2c428.142C933.577%2c443.617%2c939.831%2c462.885%2c949.739%2c477.831C958.528%2c491.088%2c973.315%2c498.185%2c989.219%2c498.41' fill='rgba(255%2c 195%2c 0%2c 0.64)' class='triangle-float1'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1323'%3e%3crect width='1458' height='493' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");             
+/* background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='250' preserveAspectRatio='none' viewBox='0 0 1440 250'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1018%26quot%3b)' fill='none'%3e%3crect width='1440' height='250' x='0' y='0' fill='rgba(241%2c 227%2c 211%2c 1)'%3e%3c/rect%3e%3cpath d='M42 250L292 0L569.5 0L319.5 250z' fill='url(%26quot%3b%23SvgjsLinearGradient1019%26quot%3b)'%3e%3c/path%3e%3cpath d='M274.6 250L524.6 0L803.6 0L553.6 250z' fill='url(%26quot%3b%23SvgjsLinearGradient1019%26quot%3b)'%3e%3c/path%3e%3cpath d='M492.20000000000005 250L742.2 0L797.7 0L547.7 250z' fill='url(%26quot%3b%23SvgjsLinearGradient1019%26quot%3b)'%3e%3c/path%3e%3cpath d='M734.8000000000001 250L984.8000000000001 0L1334.3000000000002 0L1084.3000000000002 250z' fill='url(%26quot%3b%23SvgjsLinearGradient1019%26quot%3b)'%3e%3c/path%3e%3cpath d='M1403 250L1153 0L1051 0L1301 250z' fill='url(%26quot%3b%23SvgjsLinearGradient1020%26quot%3b)'%3e%3c/path%3e%3cpath d='M1164.4 250L914.4000000000001 0L692.4000000000001 0L942.4000000000001 250z' fill='url(%26quot%3b%23SvgjsLinearGradient1020%26quot%3b)'%3e%3c/path%3e%3cpath d='M953.8 250L703.8 0L373.79999999999995 0L623.8 250z' fill='url(%26quot%3b%23SvgjsLinearGradient1020%26quot%3b)'%3e%3c/path%3e%3cpath d='M704.1999999999999 250L454.19999999999993 0L310.19999999999993 0L560.1999999999999 250z' fill='url(%26quot%3b%23SvgjsLinearGradient1020%26quot%3b)'%3e%3c/path%3e%3cpath d='M1239.2640330215584 250L1440 49.26403302155845L1440 250z' fill='url(%26quot%3b%23SvgjsLinearGradient1019%26quot%3b)'%3e%3c/path%3e%3cpath d='M0 250L200.73596697844155 250L 0 49.26403302155845z' fill='url(%26quot%3b%23SvgjsLinearGradient1020%26quot%3b)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1018'%3e%3crect width='1440' height='250' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='0%25' y1='100%25' x2='100%25' y2='0%25' id='SvgjsLinearGradient1019'%3e%3cstop stop-color='rgba(153%2c 51%2c 0%2c 0.35)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(153%2c 51%2c 0%2c 0.35)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='100%25' y1='100%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient1020'%3e%3cstop stop-color='rgba(153%2c 51%2c 0%2c 0.35)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(153%2c 51%2c 0%2c 0.35)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e"); */
+            background-size: cover;
+/*              display: flex;
+            justify-content: center;
+            align-items: center;  */
+            min-height: 100vh;
+            font-family: 'Noto Naskh Arabic', serif;
+        }
+        .box{
+            position: relative;
+            width: 370px;
+            height: 450px;
+            background-color: var(--Dark-blue);
+            border-radius: 5px 50px;
+            margin: auto;
+            transform: translate(50% , 50%);
+        }
+        form{
+            position: absolute;
+            inset: 2em;
+            border-radius: 5px 50px;
+            background-color: var(--Dark-blue);
+            z-index: 10;
+            display: flex;
+            flex-direction: column;
+        }
+        h2{
+            color: var(--orange-1);
+            text-align: center;
+            font-size: 35px;
+            font-weight: 800;
+            margin: 10px;
+        }
+        .input-box{
+            margin: 10px 0 ;
+            position: relative;
+        }
+        .input-box input{
+            position: relative;
+            width: 100%;
+            padding: 20px 10px 10px;
+            background-color: transparent;
+            border: none;
+            outline: none;
+            color: var(--Dark-blue);
+            font-size: 1em;
+            z-index: 10;
+        }
+        input[type="submit"]{
+            font-size: 30px;
+            border: none;
+            outline: none;
+            background-color: var(--orange-1);
+            padding: 5px;
+            margin-top: 50px;
+            border-radius: 90px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        input[type="submit"]:active{
+            background-image: linear-gradient(90deg,var(--orange),var(--orange-1));
+            opacity: .8;
+        }
+        .input-box span{
+            position: absolute;
+            right: 0;
+            padding: 20px 10px 10px;
+            background-color: transparent;
+            pointer-events: none;
+            color: var(--Cream);
+            font-size: 1em;
+            transition: .5s;
+        }
+        
+        .input-box input:valid ~ span,
+        .input-box input:focus ~ span,
+        .input-box input:-webkit-autofill ~ span,
+        .input-box input:-webkit-autofill:focus ~ span{
+            color: var(--orange-1);
+            font-size: .75em;
+            transform: translateX(-10px) translateY(-30px);
+        }
+
+        .input-box i{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            width: 100%;
+            height: 2px;
+            background-color: var(--orange-1);
+            pointer-events: none;
+            border-radius: 4px;
+            z-index: 9;
+            transition: .5s;
+        }
+
+        .input-box input:valid ~ i,
+        .input-box input:focus ~ i{
+            height: 38px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <form class="login" method="post"  runat="server">
+            <h2>تسجيل دخول</h2>
+            <div class="input-box">
+                
+                <input type="text"  id="userNam" runat="server"
+                 required="required"
+                oninvalid="this.setCustomValidity('ادخل اسم المستخدم')"
+                oninput="this.setCustomValidity('')"/>
+                <span>اسم المستخدم</span>
+                <i></i>
+            </div>
+            <div class="input-box">
+                
+                <input type="password"  id="pasWord" runat="server"
+                 required="required"
+                oninvalid="this.setCustomValidity('ادخل كلمة المرور')"
+                oninput="this.setCustomValidity('')"/>
+                <span>كلمة المرور</span>
+                <i></i>
+            </div>
+                <input type="submit" value="دخول" onserverclick="login_Click" runat="server"/>
+        </form>
+    </div>
+</body>
+</html>
